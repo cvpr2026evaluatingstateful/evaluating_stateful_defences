@@ -944,7 +944,7 @@ for i, (x, y) in enumerate(pbar):
 
                             # predicted_class = torch.argmax(outputs, dim=1)
                             if (pred_idx != true_idx):
-                                print("Sample missclassified with index:", i)
+                                #print("Sample missclassified with index:", i)
                                 
                                 
                                 if(1):
@@ -984,16 +984,17 @@ for i, (x, y) in enumerate(pbar):
 
                             avgloss = 0
                             undetected_eot = 0
-
-            print("total_misclassifications: ", total_misclassifications)
-            print("Cache hits: ", cache_hits)
-            print("Avg. cache hits:", avg_cache_hits)
-            print("Avg. Hit rate:", avg_cache_hits / (total_iterations+1))
-            print("square loss value:", squareattackloss)
-            print("Hit rate:", cache_hits / (t+1))
-            print("num of samples iterated:", number_of_samples)
-            print("total_samples_iterated_across_restarts: ",
-                  total_samples_iterated_across_restarts)
-            print("Attack Success Rate:", total_misclassifications/number_of_samples)
-
             total_iterations = total_iterations+1
+
+        print("total_misclassifications: ", total_misclassifications)
+        print("Cache hits: ", cache_hits)
+        print("Avg. cache hits:", avg_cache_hits)
+        print("Avg. Hit rate:", avg_cache_hits / (total_iterations+1))
+        #print("square loss value:", squareattackloss)
+        print("Hit rate:", cache_hits / (t+1))
+        print("num of samples iterated:", number_of_samples)
+        print("total_samples_iterated_across_restarts: ",
+              total_samples_iterated_across_restarts)
+        print("Attack Success Rate:", total_misclassifications/number_of_samples)
+
+            

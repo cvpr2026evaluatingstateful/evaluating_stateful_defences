@@ -364,7 +364,7 @@ class AdvQDet(StateModule):
         embed = self.getDigest(img, preprocess=preprocesss)
         dists = []
         preds = []
-        print("Cache Length: ", len(self.cache))
+        #print("Cache Length: ", len(self.cache))
         for query_embed, pred in self.cache.items():
             dist = torch.cosine_similarity(embed, query_embed, dim=0).item()
             dists.append(dist)

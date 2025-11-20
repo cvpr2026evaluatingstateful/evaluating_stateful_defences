@@ -669,8 +669,8 @@ for i, (x, y) in enumerate(pbar):
             candidate_store = x + 0
             similar = False
 
-            print("----------------------------------------------------------------")
-            print("Current Index:", i)
+            #print("----------------------------------------------------------------")
+            #print("Current Index:", i)
             xshow = x_adv_candidate.cpu().numpy()  # Convert the tensor to a NumPy array
             # print(xshow.shape)  # Print the original shap3e for debugging
 
@@ -753,8 +753,7 @@ for i, (x, y) in enumerate(pbar):
 
                 if len(similarity_result) > 0:
                     dist, cached_prediction = similarity_result[0]
-                    print(
-                        "Cosine distance between best historical match and current embedding: ", dist)
+                    #print("Cosine distance between best historical match and current embedding: ", dist)
                     candidate_store = torch.cat(
                         (candidate_store, x_adv_candidate), dim=0)
 
@@ -925,14 +924,15 @@ for i, (x, y) in enumerate(pbar):
                             second, _ = masked.max(dim=1)
                             logit_diff = (true_logits - second).item()
                             
-                            print("true logit:", true_logits)
-                            print("second logit: ", second)
+                            #print("true logit:", true_logits)
+                            #print("second logit: ", second)
 
                             # loss_value = probs[0][true_idx].item()
 
                             loss_value = logit_diff
 
-                            print("current adv loss value:", loss_value)
+                            #print("current adv loss value:", loss_value)
+                            """
 
                             print(
                                 f"🔍 Predicted: {pred_idx} () with confidence {confidence:.2f}")
@@ -941,10 +941,11 @@ for i, (x, y) in enumerate(pbar):
 
                             print("Predicted id:", pred_idx)
                             print("true id:", true_idx)
+                            """
 
                             # predicted_class = torch.argmax(outputs, dim=1)
                             if (pred_idx != true_idx):
-                                print("Sample missclassified with index:", i)
+                                #print("Sample missclassified with index:", i)
                                 
                                 
                                 #if(1):
@@ -983,16 +984,17 @@ for i, (x, y) in enumerate(pbar):
 
                             avgloss = 0
                             undetected_eot = 0
-
-            print("total_misclassifications: ", total_misclassifications)
-            print("Cache hits: ", cache_hits)
-            print("Avg. cache hits:", avg_cache_hits)
-            print("Avg. Hit rate:", avg_cache_hits / (total_iterations+1))
-            print("square loss value:", squareattackloss)
-            print("Hit rate:", cache_hits / (t+1))
-            print("num of samples iterated:", number_of_samples)
-            print("total_samples_iterated_across_restarts: ",
-                  total_samples_iterated_across_restarts)
-            print("Attack Success Rate:", total_misclassifications/number_of_samples)
-
             total_iterations = total_iterations+1
+
+        print("total_misclassifications: ", total_misclassifications)
+        print("Cache hits: ", cache_hits)
+        print("Avg. cache hits:", avg_cache_hits)
+        print("Avg. Hit rate:", avg_cache_hits / (total_iterations+1))
+        #print("square loss value:", squareattackloss)
+        print("Hit rate:", cache_hits / (t+1))
+        print("num of samples iterated:", number_of_samples)
+        print("total_samples_iterated_across_restarts: ",
+              total_samples_iterated_across_restarts)
+        print("Attack Success Rate:", total_misclassifications/number_of_samples)
+
+            
