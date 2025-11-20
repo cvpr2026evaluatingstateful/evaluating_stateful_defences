@@ -1,0 +1,259 @@
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/AdvQdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:True Label : 0 | Predicted Label : 0 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 1 | Predicted Label : 1 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 2 | Predicted Label : 2 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 3 | Predicted Label : 3 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 4 | Predicted Label : 4 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 5 | Predicted Label : 5 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 6 | Predicted Label : 6 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 7 | Predicted Label : 8 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 8 | Predicted Label : 7 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 9 | Predicted Label : 9 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 10 | Predicted Label : 10 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 11 | Predicted Label : 11 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 12 | Predicted Label : 12 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 13 | Predicted Label : 13 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 14 | Predicted Label : 14 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 15 | Predicted Label : 15 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 16 | Predicted Label : 16 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 17 | Predicted Label : 17 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 18 | Predicted Label : 18 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 19 | Predicted Label : 19 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 20 | Predicted Label : 20 | Cache Hits / Total Queries : 2200 / 2203
+INFO:root:True Label : 21 | Predicted Label : 21 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 22 | Predicted Label : 22 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 23 | Predicted Label : 23 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 24 | Predicted Label : 24 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 25 | Predicted Label : 25 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 26 | Predicted Label : 26 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 27 | Predicted Label : 307 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 28 | Predicted Label : 28 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 29 | Predicted Label : 29 | Cache Hits / Total Queries : 2200 / 2205
+INFO:root:True Label : 30 | Predicted Label : 30 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 31 | Predicted Label : 31 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 32 | Predicted Label : 31 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 33 | Predicted Label : 33 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 34 | Predicted Label : 838 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 35 | Predicted Label : 35 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 36 | Predicted Label : 36 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 37 | Predicted Label : 35 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 38 | Predicted Label : 38 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 39 | Predicted Label : 39 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 40 | Predicted Label : 46 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 41 | Predicted Label : 41 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 42 | Predicted Label : 66 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 43 | Predicted Label : 43 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 44 | Predicted Label : 52 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 45 | Predicted Label : 45 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 46 | Predicted Label : 46 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 47 | Predicted Label : 47 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 48 | Predicted Label : 48 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 49 | Predicted Label : 50 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 50 | Predicted Label : 50 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 51 | Predicted Label : 51 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 52 | Predicted Label : 52 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 53 | Predicted Label : 53 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 54 | Predicted Label : 54 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 55 | Predicted Label : 55 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 56 | Predicted Label : 56 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 57 | Predicted Label : 57 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 58 | Predicted Label : 58 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 59 | Predicted Label : 59 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 60 | Predicted Label : 61 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 61 | Predicted Label : 61 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 62 | Predicted Label : 62 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 63 | Predicted Label : 63 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 64 | Predicted Label : 64 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 65 | Predicted Label : 65 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 66 | Predicted Label : 66 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 67 | Predicted Label : 67 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 68 | Predicted Label : 68 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 69 | Predicted Label : 69 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 70 | Predicted Label : 70 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 71 | Predicted Label : 71 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 72 | Predicted Label : 72 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 73 | Predicted Label : 74 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 74 | Predicted Label : 74 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 75 | Predicted Label : 75 | Cache Hits / Total Queries : 2200 / 2203
+INFO:root:True Label : 76 | Predicted Label : 76 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 77 | Predicted Label : 77 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 78 | Predicted Label : 549 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 79 | Predicted Label : 506 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 80 | Predicted Label : 80 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 81 | Predicted Label : 135 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 82 | Predicted Label : 82 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 83 | Predicted Label : 83 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 84 | Predicted Label : 84 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 85 | Predicted Label : 85 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 86 | Predicted Label : 86 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 87 | Predicted Label : 87 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 88 | Predicted Label : 88 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 89 | Predicted Label : 89 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 90 | Predicted Label : 90 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 91 | Predicted Label : 91 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 92 | Predicted Label : 92 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 93 | Predicted Label : 93 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 94 | Predicted Label : 15 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 95 | Predicted Label : 95 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 96 | Predicted Label : 580 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 97 | Predicted Label : 97 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 98 | Predicted Label : 98 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 99 | Predicted Label : 99 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
+INFO:root:True Label : 0 | Predicted Label : 0 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 1 | Predicted Label : 1 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 2 | Predicted Label : 2 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 3 | Predicted Label : 3 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 4 | Predicted Label : 4 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 5 | Predicted Label : 5 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 6 | Predicted Label : 6 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 7 | Predicted Label : 8 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 8 | Predicted Label : 7 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 9 | Predicted Label : 9 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 10 | Predicted Label : 10 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 11 | Predicted Label : 11 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 12 | Predicted Label : 12 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 13 | Predicted Label : 13 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 14 | Predicted Label : 14 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 15 | Predicted Label : 15 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 16 | Predicted Label : 16 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 17 | Predicted Label : 17 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 18 | Predicted Label : 18 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 19 | Predicted Label : 19 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 20 | Predicted Label : 20 | Cache Hits / Total Queries : 2200 / 2203
+INFO:root:True Label : 21 | Predicted Label : 21 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 22 | Predicted Label : 22 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 23 | Predicted Label : 23 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 24 | Predicted Label : 24 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 25 | Predicted Label : 25 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 26 | Predicted Label : 26 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 27 | Predicted Label : 307 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 28 | Predicted Label : 28 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 29 | Predicted Label : 29 | Cache Hits / Total Queries : 2200 / 2205
+INFO:root:True Label : 30 | Predicted Label : 30 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 31 | Predicted Label : 31 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 32 | Predicted Label : 31 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 33 | Predicted Label : 33 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 34 | Predicted Label : 838 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 35 | Predicted Label : 35 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 36 | Predicted Label : 36 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 37 | Predicted Label : 35 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 38 | Predicted Label : 38 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 39 | Predicted Label : 39 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 40 | Predicted Label : 46 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 41 | Predicted Label : 41 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 42 | Predicted Label : 66 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 43 | Predicted Label : 43 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 44 | Predicted Label : 52 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 45 | Predicted Label : 45 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 46 | Predicted Label : 46 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 47 | Predicted Label : 47 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 48 | Predicted Label : 48 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 49 | Predicted Label : 50 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 50 | Predicted Label : 50 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 51 | Predicted Label : 51 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 52 | Predicted Label : 52 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 53 | Predicted Label : 53 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 54 | Predicted Label : 54 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 55 | Predicted Label : 55 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 56 | Predicted Label : 56 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 57 | Predicted Label : 57 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 58 | Predicted Label : 58 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 59 | Predicted Label : 59 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 60 | Predicted Label : 61 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 61 | Predicted Label : 61 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 62 | Predicted Label : 62 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 63 | Predicted Label : 63 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 64 | Predicted Label : 64 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 65 | Predicted Label : 65 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 66 | Predicted Label : 66 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 67 | Predicted Label : 67 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 68 | Predicted Label : 68 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 69 | Predicted Label : 69 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 70 | Predicted Label : 70 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 71 | Predicted Label : 71 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 72 | Predicted Label : 72 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 73 | Predicted Label : 74 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 74 | Predicted Label : 74 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 75 | Predicted Label : 75 | Cache Hits / Total Queries : 2200 / 2203
+INFO:root:True Label : 76 | Predicted Label : 76 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 77 | Predicted Label : 77 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 78 | Predicted Label : 549 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 79 | Predicted Label : 506 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 80 | Predicted Label : 80 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 81 | Predicted Label : 135 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 82 | Predicted Label : 82 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 83 | Predicted Label : 83 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 84 | Predicted Label : 84 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 85 | Predicted Label : 85 | Cache Hits / Total Queries : 2200 / 2204
+INFO:root:True Label : 86 | Predicted Label : 86 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 87 | Predicted Label : 87 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 88 | Predicted Label : 88 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 89 | Predicted Label : 89 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 90 | Predicted Label : 90 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 91 | Predicted Label : 91 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 92 | Predicted Label : 92 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 93 | Predicted Label : 93 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 94 | Predicted Label : 15 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 95 | Predicted Label : 95 | Cache Hits / Total Queries : 2201 / 2203
+INFO:root:True Label : 96 | Predicted Label : 580 | Cache Hits / Total Queries : 0 / 0
+INFO:root:True Label : 97 | Predicted Label : 97 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 98 | Predicted Label : 98 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:True Label : 99 | Predicted Label : 99 | Cache Hits / Total Queries : 2201 / 2204
+INFO:root:FINISHED
+INFO:root:Namespace(disable_logging=False, config='./configs/imagenet/advqdet/hsja/untargeted/adaptive/config.json', num_images=100, start_idx=0, log_dir=None)
+INFO:root:{'threshold': 0.9, 'add_cache_hit': True, 'reset_cache_on_hit': False, 'aggregation': 'cosine', 'action': 'rejection', 'state': {'type': 'AdvQDet', 'input_shape': [3, 224, 224], 'salt': False}, 'architecture': 'resnet152', 'dataset': 'imagenet'}
+INFO:root:{'attack': 'HSJA', 'targeted': False, 'max_iter': 99999999, 'eps': 0.05, 'num_dirs': 100, 'max_num_dirs': 10000, 'budget': 100000, 'adaptive': {'query_blinding_transform': None, 'bs_boundary_end_on_hit': False, 'grad_max_attempts': 20, 'bs_grad_var': True, 'bs_grad_var_steps': 10, 'bs_grad_var_sample_size': 20, 'bs_grad_var_hit_rate': 0.05, 'bs_grad_var_upper': 5, 'bs_grad_var_lower': 1.5, 'grad_est_accept_partial': True, 'step_max_attempts': 5}}
