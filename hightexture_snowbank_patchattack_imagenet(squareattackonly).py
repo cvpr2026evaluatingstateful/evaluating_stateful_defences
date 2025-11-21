@@ -590,7 +590,7 @@ for i, (x, y) in enumerate(pbar):
         
         xshow = x.detach().cpu().numpy()
         xshow = xshow.transpose(0, 2, 3, 1)  # [B, H, W, C]
-        show_data(np.reshape(xshow[0], newshape=(224, 224, 3)), label="clean Index"+str(i), save_name="clean Index"+str(i))
+        #show_data(np.reshape(xshow[0], newshape=(224, 224, 3)), label="clean Index"+str(i), save_name="clean Index"+str(i))
         
         
         # precompute a unique, random destination order (no replacement)
@@ -666,8 +666,8 @@ for i, (x, y) in enumerate(pbar):
             candidate_store = x + 0
             similar = False
 
-            print("----------------------------------------------------------------")
-            print("Current Index:", i)
+            #print("----------------------------------------------------------------")
+            #print("Current Index:", i)
             xshow = x_adv_candidate.cpu().numpy()  # Convert the tensor to a NumPy array
             # print(xshow.shape)  # Print the original shap3e for debugging
 
@@ -750,8 +750,7 @@ for i, (x, y) in enumerate(pbar):
 
                 if len(similarity_result) > 0:
                     dist, cached_prediction = similarity_result[0]
-                    print(
-                        "Cosine distance between best historical match and current embedding: ", dist)
+                    #print("Cosine distance between best historical match and current embedding: ", dist)
                     candidate_store = torch.cat(
                         (candidate_store, x_adv_candidate), dim=0)
 
@@ -925,13 +924,13 @@ for i, (x, y) in enumerate(pbar):
                             second, _ = masked.max(dim=1)
                             logit_diff = (true_logits - second).item()
                             
-                            print("true logit:", true_logits)
-                            print("second logit: ", second)
+                            #print("true logit:", true_logits)
+                            #print("second logit: ", second)
 
                             # loss_value = probs[0][true_idx].item()
 
                             loss_value = logit_diff
-
+                            """
                             print("current adv loss value:", loss_value)
 
                             print(
@@ -941,6 +940,7 @@ for i, (x, y) in enumerate(pbar):
 
                             print("Predicted id:", pred_idx)
                             print("true id:", true_idx)
+                            """
 
                             # predicted_class = torch.argmax(outputs, dim=1)
                             if (pred_idx != true_idx):
