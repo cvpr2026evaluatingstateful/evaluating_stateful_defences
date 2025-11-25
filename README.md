@@ -1,4 +1,6 @@
-# ⭐ DazzlePatch Attack on AdvQDet
+# ⭐ DazzlePatch Attack
+
+### 💥 Attacking AdvQDet
 
 This repository provides scripts to run our novel **DazzlePatch Attack**, as well as the **Square Attack** proposed by *Andriushchenko et al.* (2019), against **AdvQDet**, the adversarial detector introduced by *Wang et al.* (2024).
 
