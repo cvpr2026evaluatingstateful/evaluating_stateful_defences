@@ -46,7 +46,7 @@ Please download the test images from https://drive.google.com/file/d/1Gs_Rw-BDwu
 
 ## 📁 Example ImageNet Test Folder Structure
 
-Below is an example of how your ImageNet test images should be organized after extraction:
+Below is an example of how your ImageNet images should be organized after extraction:
 
     data/
     └── imagenet/
